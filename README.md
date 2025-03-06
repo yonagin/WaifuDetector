@@ -21,8 +21,9 @@ Follow these steps to use WaifuDetector:
 
 2. **Prepare the Model**  
    Place the pre-trained ResNet50 model file (`resnet50_2detect.pth`) into the `./model` folder. If the folder doesn’t exist, create it manually.
+   the model is here:https://huggingface.co/elixirx/resnet50_2detect
 
-3. **Run Classification**  
+4. **Run Classification**  
    Execute the `classify.py` script to classify the images:
    ```bash
    python classify.py --input_dir ./input --model_path ./model/resnet50_2detect.pthh --output_dir ./output
@@ -31,7 +32,7 @@ Follow these steps to use WaifuDetector:
    - `--model_path`: Path to the model file (default: `./model/resnet50_2detect.pthh`).
    - `--output_dir`: Directory to save the output (default: `./output`).
 
-4. **View Results**  
+5. **View Results**  
    After classification, anime-style images will be copied to the `./output/0` folder.
 
 ## Notes
