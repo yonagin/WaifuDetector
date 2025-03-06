@@ -26,7 +26,7 @@ Follow these steps to use WaifuDetector:
 4. **Run Classification**  
    Execute the `classify.py` script to classify the images:
    ```bash
-   python classify.py --input_dir ./input --model_path ./model/resnet50_2detect.pthh --output_dir ./output
+   python classify.py --input_dir ./input --model_path ./model/resnet50_2detect.pth --output_dir ./output
    ```
    - `--input_dir`: Directory containing input images (default: `./input`).
    - `--model_path`: Path to the model file (default: `./model/resnet50_2detect.pthh`).
