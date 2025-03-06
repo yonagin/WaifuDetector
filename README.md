@@ -37,4 +37,4 @@ Follow these steps to use WaifuDetector:
 ## Notes
 - If you encounter errors about missing modules, rerun `pip install -r requirements.txt`.
 - For paths with spaces, enclose them in quotes (e.g., `"D:/my images"`).
-- Ensure the model file `resnet50_2detect.pthh` exists in the specified path, or the script will fail.
+- Ensure the model file `resnet50_2detect.pth` exists in the specified path, or the script will fail.
