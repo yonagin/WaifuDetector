@@ -29,7 +29,7 @@ Follow these steps to use WaifuDetector:
    python classify.py --input_dir ./input --model_path ./model/resnet50_2detect.pth --output_dir ./output
    ```
    - `--input_dir`: Directory containing input images (default: `./input`).
-   - `--model_path`: Path to the model file (default: `./model/resnet50_2detect.pthh`).
+   - `--model_path`: Path to the model file (default: `./model/resnet50_2detect.pth`).
    - `--output_dir`: Directory to save the output (default: `./output`).
 
 5. **View Results**  
